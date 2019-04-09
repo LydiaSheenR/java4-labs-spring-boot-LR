@@ -31,8 +31,6 @@ public class SpringAppTests {
                 getAnnotation(org.springframework.boot.autoconfigure.SpringBootApplication.class));
     }
 
-    /* ----- uncomment one test at a time and add just enough code to make it pass -----
-
     @Test
     public void componentLoads_Test () {
         assertNotNull(applicationContext.getBean("someComponent"));
@@ -102,6 +100,5 @@ public class SpringAppTests {
         assertEquals("You always pass failure on the way to success -- Mickey Rooney",someConfigProperties.getMessageOfTheDay());
     }
 
-     */
 
 }

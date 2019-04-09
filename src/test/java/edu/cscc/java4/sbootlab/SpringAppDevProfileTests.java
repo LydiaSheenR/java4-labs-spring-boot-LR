@@ -30,7 +30,6 @@ public class SpringAppDevProfileTests {
         Properties props = PropertiesLoaderUtils.loadProperties(applicationProperties);
     }
 
-    /* ----- uncomment one test at a time and add just enough code to make it pass -----
 
     @Test
     public void someComponentHasExternalizedDevlProfileProperty_Test () throws Exception {
@@ -41,6 +40,7 @@ public class SpringAppDevProfileTests {
         SomeComponent someComponent = applicationContext.getBean(SomeComponent.class);
         assertEquals("developmentProfile", someComponent.getSomeProperty());
     }
+
 
     @Test
     public void configurationPropertiesClassPullsPropsFromExternalConfig_Test () throws Exception {
@@ -59,7 +59,5 @@ public class SpringAppDevProfileTests {
         assertEquals(InetAddress.getByName("jeff-anderson.com"),someConfigProperties.getRemoteAddress());
         assertEquals("Happiness is the only thing that multiplies when you share it. -- Albert Schweitzer",someConfigProperties.getMessageOfTheDay());
     }
-
-     */
 
 }
